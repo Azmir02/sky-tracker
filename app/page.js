@@ -1,10 +1,12 @@
 import LocationDitactor from "@/components/LocationDitactor";
-import { getLocation } from "./api/location/locationutils";
+import { Suspense } from "react";
 
 export default function Home() {
   return (
     <main>
-      <LocationDitactor />
+      <Suspense>
+        <LocationDitactor />
+      </Suspense>
     </main>
   );
 }
