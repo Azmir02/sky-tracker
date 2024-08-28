@@ -29,7 +29,7 @@ const LocationSwitcher = () => {
         {showLocationList && (
           <div className="w-[280px] h-56 overflow-y-auto p-3 bg-white rounded-md absolute top-12 left-0 z-50">
             <ul>
-              {locations?.map((info) => (
+              {locations.map((info) => (
                 <li
                   className="text-sm p-3 rounded-sm hover:bg-slate-400 hover:text-white"
                   key={info.location}
