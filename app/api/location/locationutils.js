@@ -1,19 +1,20 @@
 const data = [
     { location: "Dhaka", latitude: 23.8103, longitude: 90.4125 },
-    { location: "Chittagong", latitude: 22.3475, longitude: 91.8123 },
-    { location: "Gazipura", latitude: 23.9889, longitude: 90.3750 },
-    { location: "Rajshahi", latitude: 24.3667, longitude: 88.6000 },
-    { location: "Khulna", latitude: 22.8167, longitude: 89.5500 },
-    { location: "Rangapukur", latitude: 25.5600, longitude: 89.2500 },
-    { location: "Narayanganj", latitude: 23.6200, longitude: 90.5000 },
-    { location: "Mymensingh", latitude: 24.7539, longitude: 90.4031 },
-    { location: "Bogra", latitude: 24.8500, longitude: 89.3667 },
-    { location: "Savar", latitude: 23.8500, longitude: 90.2600 },
-    { location: "Tungi", latitude: 23.9000, longitude: 90.4100 },
-    { location: "Serpentine Stephen Waterfall", latitude: 51.504212, longitude: -0.159335 },
-    { location: "Upper Grosvenor St", latitude: 51.510898, longitude: -0.108205 },
-    { location: "Westminster", latitude: 51.505108, longitude: -0.125041 }
+    { location: "New York City", latitude: 40.7128, longitude: -74.0060 },
+    { location: "London", latitude: 51.5074, longitude: -0.1278 },
+    { location: "Tokyo", latitude: 35.6762, longitude: 139.6503 },
+    { location: "Paris", latitude: 48.8566, longitude: 2.3522 },
+    { location: "Sydney", latitude: -33.8688, longitude: 151.2093 },
+    { location: "Berlin", latitude: 52.5200, longitude: 13.4050 },
+    { location: "Moscow", latitude: 55.7558, longitude: 37.6173 },
+    { location: "Beijing", latitude: 39.9042, longitude: 116.4074 },
+    { location: "Los Angeles", latitude: 34.0522, longitude: -118.2437 },
+    { location: "Cairo", latitude: 30.0444, longitude: 31.2357 },
+    { location: "São Paulo", latitude: -23.5505, longitude: -46.6333 },
+    { location: "Mumbai", latitude: 19.0760, longitude: 72.8777 },
+    { location: "Toronto", latitude: 43.651070, longitude: -79.347015 }
 ];
+
 
 
 function getLocation() {
