@@ -24,7 +24,7 @@ const AQIcomponent = async ({ lat, lon }) => {
   };
 
   return (
-    <div>
+    <div className="mt-3 lg:mt-0">
       <Card>
         <div>
           <h4 className="text-lg text-gray-300">Air Pollution & Quality</h4>

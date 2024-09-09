@@ -17,7 +17,7 @@ const LocationInfo = async ({ lat, lon }) => {
         {locationInfo?.countryName} | {locationInfo?.city}
       </h3>
       <div className="text-sm text-white mt-3">
-        <LocationDate /> {/* This is now client-side only */}
+        <LocationDate />
       </div>
     </div>
   );
